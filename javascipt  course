@@ -1,0 +1,26 @@
+//EVENTS IN JS
+===================
+window.onload = function() { function body } //makes a fun. when the bage loaded
+window.onclick = function() { function body } // makes a fun. when the bage one clicked
+window.ondblclick = function() { function body } // makes a fun. when the bage dubel clicked
+
+var area = document.getElementById("....."),
+    input = document.getelementById("......");
+area.onkeyup = function() { 
+  
+  area.innerHtml = input.value * 3;
+
+} // makes a fun. when the bage one clicked
+
+
+typeof (var)// will print the var type what ever the var is 
+var.length // count the no. of string letters ans spaces and every thing after "="
+tostring // an atribute to change any type to string 
+ex:
+var mynumber = number.tostring(); // number is an number type .....
+the locate of my word in string
+ex
+var mystring = "im in love with my java "
+myword =  mystring.indexOf("love", 9)// that means the engine will search at mystring to find the locate of the start of the word "love" and start after 9 steps
+myword =  mystring.lastIndexOf("love", 9)// that means the engine will search at mystring to find the locate of the start of the word "love" and start before 9 steps
+split = split ("separetor" , limit)
