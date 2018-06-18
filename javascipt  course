@@ -23,4 +23,8 @@ ex
 var mystring = "im in love with my java "
 myword =  mystring.indexOf("love", 9)// that means the engine will search at mystring to find the locate of the start of the word "love" and start after 9 steps
 myword =  mystring.lastIndexOf("love", 9)// that means the engine will search at mystring to find the locate of the start of the word "love" and start before 9 steps
-split = split ("separetor" , limit)
+split = split ("separetor" , limit)// that generate an object from the string
+slice = slice (start , end)
+substr = substr(start , length)
+substring = substring (start , end)//the differance betw. slice and substring is that if substring find (19 , 7) will swap the values to (7,19)
+
