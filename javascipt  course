@@ -27,4 +27,23 @@ split = split ("separetor" , limit)// that generate an object from the string
 slice = slice (start , end)
 substr = substr(start , length)
 substring = substring (start , end)//the differance betw. slice and substring is that if substring find (19 , 7) will swap the values to (7,19)
+cahrAt(index)//find the letter you search for by the index you entered
+charCodeAt(index)
+replace(value , new value) //value from srting to anw value from me
+fromCharCode(98 , 34 , 34 , 56)//i  can text a string by a uniq code
+//this var will apper //var allmessage = message.concat(" " , message2 , "and php")//message2 is another var
+toUperCase();toLowerCase();
+.trim()//delete all space in your string
+.link("type your link here")
+chain >>>>
+ex/
+var myNumber = 120 ,
+
+ myString = myNumber.toString().replace(2,4).split("");
+
+console.log(myNumber);
+
+console.log(myString);
+
+
 
