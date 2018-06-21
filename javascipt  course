@@ -44,6 +44,28 @@ var myNumber = 120 ,
 console.log(myNumber);
 
 console.log(myString);
+for(intial value;condtion;step)//for(i=1;i<=10;i=i+1)
+
+var mycar = {
+    type = sedan;
+    colour = red;
+    model = 2013;
+}
+cosloe.log(mycar.model) //the answer is 2013
+
+var prop ;
+for (prop in mycar){
+    if (mycar.hasOwnProperty(prop)){
+        console.log(prop + ":" + mycar[prop])
+    }
+}
+
+
+
+
+
+
+
 
 
 
