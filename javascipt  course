@@ -59,8 +59,24 @@ for (prop in mycar){
         console.log(prop + ":" + mycar[prop])
     }
 }
+ //break and continue// 
+ var i=3;
+while ( i>89 ){
+    if (i === 23){
+        break;//only break can use with while loop but we can use break and continue with for loop
+    }
+    console.log(i);
+    i++;
+    
+ }
+ 
+ var i,x;
+ for (i=1; i<=10; i++){
+     for (x=1; x<=10; x++){
+     }
 
-
+ }
+console.log(i + "=>" +x)
 
 
 
