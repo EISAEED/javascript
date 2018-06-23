@@ -125,6 +125,8 @@ console.log(no.toString())
 var n = 10.18;
 console.log(n.toFixed(4))// 10.1800
 
+<<<<parseInt>>>>
+console.log(parseInt("79 years"))//79 
 
 
 
