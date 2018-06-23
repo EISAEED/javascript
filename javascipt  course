@@ -114,7 +114,19 @@ console.log(string.replace(/i/gim,"@"))
 brackets>>>.
 // 
 var string = "I love i you";
-console.log(string.replace(/[i]/gim,"@"))
+console.log(string.replace(/[i]/gi,"@"))//[] replace i by @
+console.log(string.replace(/[^i]/gi,"@"))//[] replace all char. expect "i" 
+console.log(string.replace(/[A-z]/gi,"@"))//[] replace all char. from A to Z
+console.log(string.replace(/[a-z]/gi,"@"))//[] replace all char. from a to z  
+<<<<<toString>>>>>>>
+var n=10;
+console.log(no.toString())
+<<<<<<<toFixed>>>>>>
+var n = 10.18;
+console.log(n.toFixed(4))// 10.1800
+
+
+
 
 
 
