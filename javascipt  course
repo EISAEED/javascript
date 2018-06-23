@@ -77,9 +77,30 @@ while ( i>89 ){
 
  }
 console.log(i + "=>" +x)
+<<<<<<<<<<<continue and break>>>>>>>>>
+var i,x;
+filechilld:
+ for (i=1; i<=10; i++){
+   filegender:
+     for (x=1; x<=10; x++){
+       if( x === 3)
+       continue filechilld;
+console.log(i + "=>" +x)
+     }
 
+ }
 
-
+<<<<<<<<<Math>>>>>>>..
+var i = Math.min(1200,39,87);
+console.log(i);//i=39
+var i = Math.max(1200,39,87);
+console.log(i);i=1200
+var i = Math.ceil(1.2);
+console.log(i);//i=2
+var i = Math.floor(1.2);
+console.log(i);//i=1
+var i = Math.random();
+console.log( Math.ceil(i * 10) +1);
 
 
 
