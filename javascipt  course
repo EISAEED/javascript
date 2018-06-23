@@ -102,6 +102,25 @@ console.log(i);//i=1
 var i = Math.random();
 console.log( Math.ceil(i * 10) +1);
 
+<<<<<<reg expression>>>>>>
+
+// [g] Global search
+// [i] case senstive
+// [m] multi line search
+// 
+var string = "I love i you";
+console.log(string.replace(/i/gim,"@"))
+
+brackets>>>.
+// 
+var string = "I love i you";
+console.log(string.replace(/[i]/gim,"@"))
+
+
+
+
+
+
 
 
 
