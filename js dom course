@@ -1,0 +1,15 @@
+//getElementById().......is more useable
+//getElementByClassName()....not work at IE 8
+//getElementByTagName()....not work at IE 8
+
+
+<<<<find object by id>>>>
+
+//document.images
+//document.forms
+//document.title
+ var mydiv = document.getElementById("show");
+ mydiv.innerHtml = document.forms[0].value
+ <<<<<<<querySelector>>>>>
+ var mydiv = document.querySelector("img");
+ mydiv.title = "mytitle"
