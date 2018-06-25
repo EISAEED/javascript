@@ -1,5 +1,5 @@
 console.log(parseInt("79 years")) //can get only the number
-
+Document Object Model>>>>>DOM
 //getElementById().......is more useable
 //getElementByClassName()....not work at IE 8
 //getElementByTagName()....not work at IE 8
@@ -64,3 +64,18 @@ div.classList.remove(...cls);
 
 // replace class "foo" with class "bar"
 div.classList.replace("foo", "bar");
+
+<<<<children>>>
+myelement.children[index number]
+myelement.children[1].value or .className or .id or .textContent
+
+
+
+
+
+
+
+
+
+
+
