@@ -1,3 +1,5 @@
+console.log(parseInt("79 years")) //can get only the number
+
 //getElementById().......is more useable
 //getElementByClassName()....not work at IE 8
 //getElementByTagName()....not work at IE 8
@@ -13,3 +15,8 @@
  <<<<<<<querySelector>>>>>
  var mydiv = document.querySelector("img");
  mydiv.title = "mytitle"
+ 
+<<<<<set and get attribute>>>>>
+myimage.getAttribute('attribute name')// i can see the attribute value
+myimage.setAttribute('attribute name','attribute value' )
+myimage.setAttribute('src','http://placehold.it/100/000');//can set any attributei need like "title classname src href"
