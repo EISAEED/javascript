@@ -20,3 +20,13 @@ console.log(parseInt("79 years")) //can get only the number
 myimage.getAttribute('attribute name')// i can see the attribute value
 myimage.setAttribute('attribute name','attribute value' )
 myimage.setAttribute('src','http://placehold.it/100/000');//can set any attributei need like "title classname src href"
+
+<<<<<<image.hasAttribute('attribute name')>>>>>
+we use here if condition ....if(myimage.hasAttribute('title')){
+  console.log('true');
+} else {
+  console.log('false');
+}
+<<<<<removeAttribute>>>>> //to remove any attribute 
+
+<<<<<<mydiv.classList.contains('classname')>>>>> //to check if mydiv class contain this class or not;
