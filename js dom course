@@ -68,9 +68,19 @@ div.classList.replace("foo", "bar");
 <<<<children>>>
 myelement.children[index number]
 myelement.children[1].value or .className or .id or .textContent
+<<<<<appendchild and insertbefore>>>>>
 
+var maindiv = document.getElementById('main'),
+    p1 = document.getElementById('p1'),
+    p2 = document.getElementById('p2'),
+    p3 = document.getElementById('p3'),
+    myb =  document.getElementById('button');
+myb.appendChild("p2");
+maindiv.insertBefore(myb,maindiv.childElement[4]);
 
+<<<<<<Node [ Name, Value, Type ]>>>>>>>>
 
+childNodes.nodeName//childNodes.nodeType
 
 
 
