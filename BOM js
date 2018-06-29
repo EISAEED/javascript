@@ -1,1 +1,7 @@
 
+<<<<open>>>>>
+var myb = document.getElementById('button');
+myb.onclick = function (){
+    'use strict';
+    window.open("https://www.google.com/","_blank","width=400,height=400,menubar=yes,status=yes","hiestoty will take true or false")
+}
